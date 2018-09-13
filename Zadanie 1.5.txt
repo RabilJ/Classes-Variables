@@ -1,0 +1,17 @@
+Klasa to *szablon do tworzenia obiektów*
+Obiekt to *egzemplarz danej klasy*
+Zmienna to *element kodu pozwalaj¹cy przechowywaæ ró¿ny typ danych (np. napisy lub liczby ca³kowite).*
+Ka¿da zmienna musi mieæ okreœlony *typ*, np. int, albo String.
+W klasie mog¹ siê znajdowaæ *metody, konstruktory i pola klasy*
+*Konstruktory* s¹ wywo³ywane przez operator *new* i s³u¿¹ do tworzenia nowych obiektów.
+Jeœli w klasie zdefiniowano chocia¿ jeden *konstruktor* to kompilator nie wygeneruje dla nas *konstruktora* domyœlnego.
+Zak³adaj¹c, ¿e istnieje klasa Car, to przy zapisie:
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);
+
+car1 nazywamy … *referencj¹*
+
+a przy zapisie:
+
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 I car2 to dwie *referencje* wskazuj¹ce na ten sam obiekt.
